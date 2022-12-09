@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: white;
+    border: solid 1px black;
+    display: flex;
+}
+
+.navbar .brand {
+    width: 100px;
+    height: 50px;
+    background: #f7f9fa;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.navbar .catediv {
+    width: 120px;
+    height: 40px;
+    background: #f7f9fa;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border: solid 1px black;
+}
+
+.navbar .searchBar {
+    width: 35%;
+    height: 50px;
+    background: #f7f9fa;
+    margin-top: 12px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+.navbar .navItem {
+    width: 6%;
+    height: 10px;
+    background: #f7f9fa;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 100px;
+    border: solid 1px black;
+}
+
+.navbar .navele {
+    width: 50px;
+    height: 50px;
+    background: #f7f9fa;
+    border-radius: 100px;
+    margin: 10px;
+    margin-left: 14px;
+    border: solid 1px black;
+}
+
+.secnavBar {
+    width: 100%;
+    height: 50px;
+    background: #f7f9fa;
+    display: flex;
+    align-items: center;
+}
+
+.secnavBar .navItem {
+    width: 6%;
+    height: 10px;
+    background: rgb(35, 8, 8);
+    margin-left: 80px;
+    border-radius: 100px;
+}
+
+.secnavBar .secfirst {
+    margin-left: 220px;
+}
+
+.addblock {
+    width: 90%;
+    height: 400px;
+    background: #ededed;
+    margin: 0 auto;
+    display: flex;
+}
+
+.addblock .content {
+    width: 30%;
+    height: 130px;
+    background: white;
+    margin: 80px;
+    border: solid 1px black;
+    box-shadow: 10px 10px 20px black;
+}
+
+.courseBlock {
+    width: 100%;
+    height: 260px;
+    background: white;
+    position: relative;
+}
+
+.courseBlock .heading {
+    width: 320px;
+    height: 40px;
+    background: #f7f9fa;
+    margin-left: 90px;
+    margin-top: 20px;
+    display: inline-flex;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+.courseBlock .all {
+    width: 120px;
+    height: 30px;
+    background: #f7f9fa;
+    float: right;
+    margin-right: 100px;
+    border-radius: 20px;
+    margin-top: 35px;
+    border: solid 1px black;
+}
+
+.courseBlock .course {
+    width: 25%;
+    height: 150px;
+    background: #f7f9fa;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 30px black;
+}
+
+.courseBlock .course1 {
+    width: 25%;
+    height: 150px;
+    background: #f7f9fa;
+    position: absolute;
+    left: 550px;
+    top: 80px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 30px black;
+}
+
+.courseBlock .course2 {
+    width: 25%;
+    height: 150px;
+    background: #f7f9fa;
+    position: absolute;
+    left: 950px;
+    top: 80px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 30px black;
+}
+
+.courseBlock .etc {
+    width: 45px;
+    height: 25px;
+    background: #f7f9fa;
+    margin-top: 20px;
+    left: 1400px;
+    position: absolute;
+    top: 120px;
+    border-radius: 100px;
+    border: solid 1px black;
+    box-shadow: 10px 0px 30px black;
+}
